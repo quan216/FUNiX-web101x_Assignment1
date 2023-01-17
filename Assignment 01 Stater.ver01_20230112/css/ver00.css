@@ -1,0 +1,136 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 11pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+/* ***********************************************************
+Styling for name of h3 tags id=name shall be formated as font size: larger  , color: navi
+***************************************************************/
+h3 {
+  text-transform: uppercase;
+  color: rgba(0, 38, 255, 0.719);
+  font-size: 30px;
+}
+/* ***********************************************************
+dstyling for list of personal information, using display grid 
+***************************************************************/
+/* remove bullet for table of time and content of them */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.info {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 0px;
+}
+
+ul li.term {
+  font-weight: bolder;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+/* position for profile picture*/
+.profile-pic {
+  width: auto;
+  height: 200px;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+}
+
+/* class Section-title shall be format as font-size: xxpx, border-bottom: solid, color: black text-transform=uppercase*/
+
+.section-title {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+/* =============================================== */
+
+/* set relative position for class section */
+div.section {
+  position: relative;
+  height: auto;
+}
+
+/*set do rong cua class date */
+
+div.date li {
+  color: palevioletred;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+  padding-bottom: 60px;
+}
+
+.time-table-content li {
+  margin-bottom: 5px;
+}
+/* firtchild of time table-content */
+.time-table-content li:first-child {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* set position, t-1 */
+.t-t-content1 {
+  position: absolute;
+  left: 200px;
+  top: 30px;
+}
+
+/* set position, firtchild of time table-content-2*/
+.t-t-content2 {
+  position: absolute;
+  left: 200px;
+  top: 120px;
+}
+/*============================================ */
+
+/* class time-table shall be formated as solid border-bottom, corlor: gray */
+
+/* class unorder-lis, id pjt-content shall be formated as strong column for items+ normal text for content, maybe use psedou??? or table creating ... */
+
+/* class unorder-list, id SNS shall in blue color */ ;

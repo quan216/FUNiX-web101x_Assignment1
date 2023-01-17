@@ -1,0 +1,63 @@
+*************************************
+Mục tiêu nghề nghiệp: Sau nhiều năm làm việc trong lĩnh vực nghiên cứu và sản xuất chế tạo ô tô, tôi tham gia khóa học FUNiX Automotive với mong muốn học hỏi và trang bị thêm kỹ năng lập trình ứng dúng cho xe hơi. Cùng với kinh nghiệm tích lũ được để trở thành kỹ sư lập trình nhúng, góp phần vào sự phát triển các thế hệ xe hơi mới, đem đến cho xã hội những phương tiện di chuyển an toàn, tiện dụng và thân thiện với môi trường
+
+*******************************************
+
+**********Hoc Vấn*****************
+01/2023 - 01/2024(dự kiến): 
+FUNiX
+Tốt nghiệp khóa học Automotive
+GPA: 10/10
+
+09/2009-07/2013:
+ĐH Công Nghiệp Hà Nội
+Tốt nghiệp kỹ sư CN Ô tô
+GPA: 3/4
+
+************Kinh nghiệm làm việc*************
+
+09/2014 - 03/2018
+Công ty Honda Việt Nam
+Trưởng nhóm Chứng Nhận & Chất Lượng New Model
+- Lập kế hoạch và thực hiện chứng nhận cho các New model, Mass-production models đảm bảo tiến độ sản xuất.
+- Quản lý hệ thống sản xuất nhằm đảm bảo chất lượng xe trước và sau bán hàng phù hợp với các tiêu chuẩn an toàn kỹ thuật và bảo vệ môi trường do pháp luật quy định.
+- Tham gia các hoạt động đánh giá hệ thống nội bộ HQS, ISO-9001, ISO/TS-16949, đề xuất cải tiến nâng cao chất lượng hệ thống, chất lượng nhà cung cấp.
+- Tham gia thảo luận, nghiên cứu và góp ý xây dựng luật an toàn kỹ thuật và bảo vệ môi trường do bộ giao thông vận tải đề xuất.
+- Làm việc với Honda Motor, JAMA, VAMA ... về các chuyển động, tình hình pháp luật trong và ngoài nước Việt Nam
+
+
+03/2018-09/2020
+（株）坂本設計研究所
+Nhân Viên Thiết Kế
+- Thiết kế khuôn dập cho các phụ tùng thân vỏ ô tô.
+- 3D modelling, CNC machining.
+
+09/2020-01/2023
+（株）GLM　Japan
+Chuyên gia chứng nhận & phát triển xe điện
+- Đảm nhiệm công tác chứng nhận và luật pháp phục vụ cho việc nghiên cứu và phát triển xe điện (BEV).
+- Điều tra thị trường, lập kế hoạch và đề xuất các dự án kinh doanh.
+
+******************Hoạt Động**********
+
+03/20110 - 03/2012
+APU ROBOCON contest
+Thành viên nhóm thiết Kế
+Giải 3 toàn trường
+Đề tài: thiết kế và chế tọa Robots
+
+09/2011-09/2014
+Câu lạc bộ tiếng Anh SEAMAP
+
+***********Kỹ năng*********
+
+CSS/HTML:Fundermental
+MATLAB/SIMULINK: Fundermental
+C Fundermental
+Python: Fundermental
+Visual Basic: Fundermental
+CATIA V5, ATOCAD: Intermedial
+
+
+********Chứng chỉ***********201
+2015: IELTs 

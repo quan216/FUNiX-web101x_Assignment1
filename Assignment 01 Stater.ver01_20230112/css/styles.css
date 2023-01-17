@@ -1,0 +1,78 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+/* ***********************************************************
+Styling for name of h3 tags
+***************************************************************/
+h3 {
+  text-transform: uppercase;
+  color: rgb(0, 90, 255);
+  font-size: 23px;
+}
+/* ***********************************************************
+dstyling for list of personal information, using display grid 
+***************************************************************/
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 0px;
+}
+
+ul li.term {
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+/* ********************************************************
+
+***********************************************************/
+
+/* class Section-title shall be format as font-size: xxpx, border-bottom: solid, color: black */
+
+/* id=name h4 shall be formated as font size: larger  , color: navi*/
+
+/* class time-table shall be formated as solid border-bottom, corlor: gray */
+
+/* class unorder-lis, id pjt-content shall be formated as strong column for items+ normal text for content, maybe use psedou??? or table creating ... */
+
+/* class unorder-list, id SNS shall in blue color */

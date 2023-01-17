@@ -1,0 +1,293 @@
+* {
+  /* position: relative; */
+  padding-left: 0px;
+  padding-bottom: 2px;
+  box-sizing: border-box;
+  /*dùng box-size borde-box đê tránh trường hợp các box có độ rộng vượt quá kích thước khai báo, vì khi khai báo padding, kích thước toàn bộ box có thể vượt quá kích thước đặt trước cho box*/
+}
+
+/* =============General format=================== */
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  /* box-sizing: border-box; */
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 11pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px; /* chưa hiểu tại sao lại có 900 height ở đây*/
+  min-height: 900px;
+  margin: auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  position: relative;
+  padding: 40px; /*left and right space are 40px*/
+}
+
+/* ================================================= */
+
+/*Styling for name of h3 tags id=name shall be formated as font size: larger  , color: navi*/
+h3 {
+  text-transform: uppercase;
+  color: rgba(5, 28, 104, 0.747);
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+/* remove bullet for table of time and content of them */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+/* Making list display as grid to see as table*/
+ul.info {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: start;
+  list-style-type: none;
+  margin-bottom: 0px;
+  font-size: 14px;
+  padding: 0px;
+}
+
+/* making the right side as format text bold */
+ul li.term {
+  font-weight: bolder;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+/* need to be set this box to relative position to set picture position absoute (it is meant postion is in relative with personal-info)  */
+.personal-info {
+  position: relative;
+}
+/* position for profile picture */
+.picture {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+/* Sizing for profile picture*/
+.profile-pic {
+  width: auto;
+  height: 200px;
+}
+/* class Section-title shall be format as font-size: xxpx, border-bottom: solid, color: black text-transform=uppercase*/
+
+.section-title {
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 0px; /*tạo lề trái lùi vào 5px so với cả div section, không dùng margin được vì phải để dòng kẻ chân lệch trái 5px*/
+  border-bottom: 1px solid black;
+  margin-top: 40px;
+}
+
+.info {
+  border-bottom: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* format for target text */
+#target p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 5px;
+}
+/* ======= making timeline table================== */
+/*auto size of box section*/
+.section-content {
+  height: 100%;
+  margin-left: 5px;
+}
+
+/* positioning right of content,  */
+.right {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 5px;
+  /* phai dat width co dinh cho block right, neu khong khi noi dung qua nhieu, block width se tu dong tang len lam cho thuoc tinh display inline-block will not work; 675 = tong (885) - (left box)205 - 5 padding */
+
+  width: 600px; /*cách lề phải 5px nữa cho dễ đọc*/
+  /* có cần cái này để cho đẹp hơn không */
+  text-align: justify;
+  text-justify: inter-word; /*The text is justified by adding space between words (effectively varying word-spacing), which is most appropriate for languages that separate words using spaces, like English or Korean.*/
+}
+
+.left {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+/* setting timline-box heigh (chua hieu tai sao de auto hoa min thi height luon = 104 trong khi p + content height chi bang 76 
+khong dung position relative maf chuyen qua dung display: inline-box
+cần dặt tên cho 3 phần khác nhau vì: 
+phần timeline: cần có style dạng thời gian
+phần skill */
+.timeline {
+  margin-bottom: 0;
+  height: auto;
+  padding: 0px;
+  border-bottom: 0.75px solid rgb(192, 192, 192);
+}
+
+/* set content of timeline table format: first line is in bold font */
+.section-content .right li:first-child {
+  font-weight: bold;
+  /* font-size: 16px; */
+}
+
+/* ==============Other setting======================*/
+
+/* adding "-" mark in each line of JD */
+li.JD p::before {
+  content: "- ";
+}
+/* set JD margin top and bottom for JD paragraph in list */
+li.JD p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* in Skill section, set skill name format, bolt font */
+p.skill-name {
+  font-weight: bold;
+}
+
+/* in Hobby section format normal list to has bullet */
+.hobby {
+  list-style-type: disc;
+  padding-left: 10px;
+}
+
+/* in Project section format project title */
+.pjt-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+/* set margin of block pjt year */
+.pjt-year {
+  margin: 0;
+}
+
+/* set list bullet, lui le trai */
+
+ul.pjt-content {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+/* remove all decoration (underline) of all link */
+a {
+  text-decoration: none;
+}
+
+/* clolor of my website link is in black */
+.info a {
+  color: black;
+}
+
+/* SNS has border bottom */
+div.SNS {
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+/* ol list number porsion shall-be inside of Contact box */
+ol.SNS {
+  /* margin-left: 7px; Using list style positon in stead of margin */
+  list-style-position: inside;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.SNS a {
+  color: blue;
+}
+/* ============================================= */
+
+/* ===Building a timeline table (advance point)== */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin-left: 10px;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 90%;
+  background-color: rgb(175, 174, 174);
+  top: 0;
+  bottom: 0;
+  left: -11px;
+  margin-left: 0px;
+}
+/* time line mark */
+.time::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background-color: white;
+  /* border: 2px solid black; */
+  border: thick double rgb(65, 65, 65);
+  border-radius: 50%;
+  top: 17px;
+  bottom: 0px;
+  left: -15px;
+  z-index: 1; /*put black disk above vertical ruler*/
+}
+
+/* remove ruller line for section certificate and section skill */
+.cert::before,
+.skill::before {
+  content: none;
+}
+
+/* lỗi 2 cái lề này ra trả lại margin-left 
+ margin-left: 0;*/
+.cert,
+.skill {
+  margin-left: 0;
+}
+.cert p,
+.skill p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* ============================================ */
