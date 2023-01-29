@@ -8,10 +8,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Assignment 01</title>
+    <title>Assignment 01_ver01</title>
     <meta name="robots" content="noindex" />
 
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
@@ -20,20 +20,15 @@
       <div class="cv-page">
         <!--personal info section-->
         <div class="section" id="info">
-          <h2 class="section-title">
+          <h2 class="section-title info">
             <!--personal informaton/ do not be wrritent-->
           </h2>
-          <div class="section-content">
+          <div class="section-content personal-info">
             <!--contents of personal inforamtion-->
             <h3 id="name">tran van quan<!-- name--></h3>
             <div class="list-content" id="info">
               <!--
 							using tag<i> to separate term and data of list to easily styling in CSS
-								Birth of date:
-								sex:
-								phone:
-								address:
-								website:
 						  -->
               <ul class="info" id="Date-of-birth">
                 <li class="term">Ngày sinh</li>
@@ -41,21 +36,24 @@
                 <li class="term">Giới tính</li>
                 <li>Nam</li>
                 <li class="term">Số điện thoại</li>
-                <li>08094920544</li>
+                <li>(+81)80-9492-0544</li>
                 <li class="term">Địa chỉ</li>
-                <li></li>
+                <li>Osaka, Japan</li>
                 <li class="term">website</li>
-                <li></li>
+                <li><a href="#" target="_blank">http://www.quan216.com</a></li>
               </ul>
+            </div>
+            <div class="picture" id="profile-pic">
+              <!-- profile picture  of personal-infom using positon fixed cho div nay-->
+              <img
+                class="profile-pic"
+                src="./images/My_avatar2.jpeg"
+                alt="my-profile-pic"
+              />
             </div>
           </div>
         </div>
         <!-- end of personal-info section -->
-
-        <div class="picture" id="profile-pic">
-          <!-- profile picture  of personal-infom using positon fixed cho div nay-->
-          <img />
-        </div>
 
         <div class="section" id="target">
           <!--carreer target section-->
@@ -66,10 +64,10 @@
               Sau nhiều năm làm việc trong lĩnh vực nghiên cứu và sản xuất chế
               tạo ô tô, tôi tham gia khóa học FUNiX Automotive với mong muốn học
               hỏi và trang bị thêm kỹ năng lập trình ứng dúng cho xe hơi. Cùng
-              với kinh nghiệm tích lũ được để trở thành kỹ sư lập trình nhúng,
-              góp phần vào sự phát triển các thế hệ xe hơi mới, đem đến cho xã
+              với kinh nghiệm tích lũ được để trở thành kỹ sư lập trình nhúng.
+              Đóng góp vào sự phát triển các thế hệ xe hơi mới, đem đến cho xã
               hội những phương tiện di chuyển an toàn, tiện dụng và thân thiện
-              với môi trường.
+              với môi trường
             </p>
           </div>
         </div>
@@ -78,18 +76,29 @@
           <!-- education section-->
           <h2 class="section-title">Học vấn</h2>
           <div class="section-content" id="education">
-            <div class="time-table" id="education">
-              <!-- creat a time-line table/ unorder list or....-->
+            <!-- creat a time-line table/ unorder list or....-->
+            <div class="timeline t1">
+              <p class="time left">01/2023 - 01/2024<em>(dự kiến)</em></p>
+              <div class="timeline-content right">
+                <ul>
+                  <li>FUNiX</li>
+                  <li>Tốt nghiệp khóa học Automotive</li>
+                  <li>GPA: 9/10</li>
+                </ul>
+              </div>
             </div>
-            <div class="time-table-content" id="education-1">
-              <!-- creat a list of content of education -->
+
+            <div class="timeline t2">
+              <p class="time left">09/2009-07/2013</p>
+              <div class="timeline-content right">
+                <ul>
+                  <li>ĐH Công Nghiệp Hà Nội</li>
+                  <li>Tốt nghiệp kỹ sư CN Ô tô</li>
+                  <li>GPA: 3/4</li>
+                </ul>
+              </div>
             </div>
-            <div class="time-table-content" id="education-2">
-              <!-- creat a list of content of education -->
-            </div>
-            <div class="time-table-content" id="education-3">
-              <!-- creat a list of content of education -->
-            </div>
+            <!-- finish timeline -->
           </div>
         </div>
 
@@ -97,51 +106,179 @@
           <!-- working-experience section-->
           <h2 class="section-title">Kinh nghiệm làm việc</h2>
           <div class="section-content" id="experience">
-            <div class="time-table" id="experience">
-              <!-- creat a time-line table/ unorder list or....-->
+            <!-- creat a time-line table/ unorder list or....-->
+            <!-- Cty3-->
+            <div class="timeline t3">
+              <p class="time left">09/2014 - 03/2018</p>
+              <div class="timeline-content right">
+                <ul>
+                  <li class="company">Công ty Honda Việt Nam (HVN)</li>
+                  <li class="position">
+                    Trưởng nhóm Chứng Nhận & Chất Lượng & New Model
+                  </li>
+                  <li class="JD">
+                    <p>
+                      Lập kế hoạch và thực hiện chứng nhận cho các New model,
+                      Mass-production models.
+                    </p>
+                    <p>
+                      Quản lý hệ thống sản xuất nhằm đảm bảo chất lượng xe trước
+                      và sau bán hàng phù hợp với các tiêu chuẩn an toàn kỹ
+                      thuật và bảo vệ môi trường do pháp luật quy định.
+                    </p>
+                    <p>
+                      Tham gia các hoạt động đánh giá hệ thống nội bộ HQS,
+                      ISO-9001, ISO/TS-16949. Từ đó đưa ra các đề xuất cải tiến
+                      nâng cao chất lượng hệ thống, chất lượng nhà cung cấp.
+                    </p>
+                    <p>
+                      Tham gia thảo luận, nghiên cứu và góp ý xây dựng luật.
+                      Nâng cao hệ thông kiểm tra an toàn kỹ thuật và bảo vệ môi
+                      trường của bộ GTVT.
+                    </p>
+                    <p>
+                      Làm việc với Honda Motor, JAMA, VAMA ...về các chuyển
+                      động, tình hình pháp luật trong và ngoài nước Việt Nam.
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="time-table-content" id="experience-1">
-              <!-- creat a list of content of education -->
+            <!--CTY2-->
+            <div class="timeline t2">
+              <p class="time left">03/2018-09/2020</p>
+              <div class="timeline-content right">
+                <ul>
+                  <li class="company">坂本設計研究所 株式会社</li>
+                  <li class="position">Nhân Viên Thiết Kế</li>
+                  <li class="JD">
+                    <p>Thiết kế khuôn dập cho các phụ tùng thân vỏ ô tô.</p>
+                    <p>3D modelling, CNC machining operation</p>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <!-- Cty1-->
+            <div class="timeline t1">
+              <p class="time left">03/2018-09/2020</p>
+              <div class="timeline-content right">
+                <ul>
+                  <li class="company">坂本設計研究所 株式会社</li>
+                  <li class="position">Nhân Viên Thiết Kế</li>
+                  <li class="JD">
+                    <p>Thiết kế khuôn dập cho các phụ tùng thân vỏ ô tô.</p>
+                    <p>3D modelling, CNC machining operation</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!---->
+
+            <!---->
           </div>
         </div>
+        <!-- Finish experience part-->
 
         <div class="section" id="activity">
           <!-- activity section -->
           <h2 class="section-title">Hoạt động</h2>
           <div class="section-content" id="activity">
-            <div class="time-table" id="activity">
-              <!-- creat a time-line table/ unorder list or....-->
+            <div class="timeline ativ-1">
+              <p class="time left">03/2010-03/2012</p>
+              <div class="timeline-content right">
+                <ul>
+                  <li class="company">APU ROBOCON contest</li>
+                  <li class="position">Thành viên nhóm thiết kế</li>
+                  <li class="JD">Giải 3 toàn trường</li>
+                  <li class="JD">Đề tài: Thiết kế và chế tạo Robots</li>
+                </ul>
+              </div>
             </div>
-            <div class="time-table-content" id="activity-1">
-              <!-- creat a list of content of education -->
+            <!--Activiti2-->
+            <div class="timeline ativ-2">
+              <p class="time left">09/2011-09/2014</p>
+              <div class="timeline-content right">
+                <ul>
+                  <li class="company">Câu lạc bộ tiếng Anh SEAMAP</li>
+                  <li class="position">Thành viên</li>
+                  <li class="JD"></li>
+                  <li class="JD"></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+        <!-- Finish Activities  part-->
 
         <div class="section" id="skill">
           <!-- skill section-->
           <h2 class="section-title">Kỹ năng</h2>
           <div class="section-content">
-            <div class="normal-table" id="skill">
-              <!-- need a table or unorder list here -->
+            <div class="timeline skill">
+              <p class="skill-name left">HTML/CSS</p>
+              <div class="level right">
+                <p>Fundemental</p>
+              </div>
             </div>
-            <div class="time-table-content" id="skill-1">
-              <!-- creat a list of content of education -->
+            <!--skill2-->
+            <div class="timeline skill">
+              <p class="skill-name left">MATLAB/SIMULINK</p>
+              <div class="level right">
+                <p>Fundemental</p>
+              </div>
             </div>
+            <!--skill3-->
+            <div class="timeline skill">
+              <p class="skill-name left">C/Pic MCU programing</p>
+              <div class="level right">
+                <p>Fundemental</p>
+              </div>
+            </div>
+            <!--skill4-->
+            <div class="timeline skill">
+              <p class="skill-name left">python</p>
+              <div class="level right">
+                <p>Fundemental</p>
+              </div>
+            </div>
+            <!--skill5-->
+            <div class="timeline skill">
+              <p class="skill-name left">CATIA V5, AUTOCAD</p>
+              <div class="level right">
+                <p>Intemediate</p>
+              </div>
+            </div>
+            <!---->
           </div>
         </div>
 
         <div class="section" id="certificate">
           <!-- certificate section -->
-          <h2 class="section-title">Chứng nhận - Giải thưởng</h2>
+          <h2 class="section-title">Chứng chỉ - Giải thưởng</h2>
           <div class="section-content">
-            <div class="time-table" id="certificate">
-              <!-- need a time-table or list-->
+            <!--Certificate3-->
+            <div class="timeline cert">
+              <p class="time-cert left">2019</p>
+              <div class="timeline-content right">
+                <p class="cert-name">JLPT-N2</p>
+              </div>
             </div>
-            <div class="time-table-content" id="certificate-1">
-              <!-- creat a list of content of education -->
+            <!---->
+            <!-- cartificate-2-->
+            <div class="timeline cert">
+              <p class="time-cert left">2017</p>
+              <div class="timeline-content right">
+                <p class="cert-name">ISO-9001 Internal Auditor</p>
+              </div>
             </div>
+            <!--Cert1-->
+            <div class="timeline cert">
+              <p class="time-cert left">2015</p>
+              <div class="timeline-content right">
+                <p class="cert-name">IELTs</p>
+              </div>
+            </div>
+            <!---->
           </div>
         </div>
 
@@ -149,8 +286,14 @@
           <!-- hobbly section -->
           <h2 class="section-title">Sở thích</h2>
           <div class="section-content">
-            <div class="unorder-list" id="hobby">
+            <div class="normal-list hobby">
               <!-- a list of hobies, just a normal list with rectangle bullet -->
+              <ul class="hobby">
+                <li>Đọc sách.</li>
+                <li>Tìm hiểu về xe hơi.</li>
+                <li>Nghe nhạc.</li>
+                <li>Chơi thể thao (chạy bộ, Tenis).</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -159,47 +302,45 @@
           <!-- project section -->
           <h2 class="section-title">Dự án</h2>
           <div class="section-content">
+            <!--project1-->
             <div class="project-list" id="pjt-1">
-              <!--project1-->
-              <h3 class="pjt-title"><!--project 1 tiltle--></h3>
-              <p class="pjt-year"><!--project year---></p>
+              <p class="pjt-title">Webpage my-CV</p>
+              <p class="pjt-year">2023</p>
               <div class="unorder-list" id="pjt-content">
-                <!--unorder list
-								vi tri:
-								mo ta:
-								nhiem vu:
-								cong nghe:
-								-->
+                <!--unorder list-->
+                <ul class="pjt-content">
+                  <li><b>Vị Trí:</b> Lập trình viên</li>
+                  <li>
+                    <b>Mô tả:</b> Sử dụng các kiến thức đã học lập trình trang
+                    CV-page, chứa các nội dung cá nhân theo format.
+                  </li>
+                  <li>
+                    <b>nhiệm vụ:</b> Lập trình webpage bằng các kiến thức đã học
+                    theo yêu cầu.
+                  </li>
+                </ul>
               </div>
             </div>
-
-            <div class="project-list" id="pjt-2">
-              <!-- project 2 -->
-              <h3 class="pjt-title"><!--project 2 tiltle--></h3>
-              <p class="pjt-year"><!--project year---></p>
+            <!--Pjt-2-->
+            <div class="project-list" id="pjt-1">
+              <p class="pjt-title">Biên dịch Nhật-Việt</p>
+              <p class="pjt-year">2021</p>
               <div class="unorder-list" id="pjt-content">
-                <!--unorder list
-								vi tri:
-								mo ta:
-								nhiem vu:
-								cong nghe:
-								-->
+                <!--unorder list-->
+                <ul class="pjt-content">
+                  <li><b>Vị Trí:</b> Trưởng nhóm</li>
+                  <li>
+                    <b>Mô tả:</b> Biên dịch sách đầu tư tài chính do hiệp hội
+                    CKNB phát hành.
+                  </li>
+                  <li>
+                    <b>nhiệm vụ:</b> Dịch thuật nội dung sách từ tiếng Nhật sang
+                    tiếng Việt và điều phối công việc của các thành viên.
+                  </li>
+                </ul>
               </div>
             </div>
-
-            <div class="project-list" id="pjt-3">
-              <!-- project 3 -->
-              <h3 class="pjt-title"><!--project 3 tiltle--></h3>
-              <p class="pjt-year"><!--project year---></p>
-              <div class="unorder-list" id="pjt-content">
-                <!--unorder list
-								vi tri:
-								mo ta:
-								nhiem vu:
-								cong nghe:
-								-->
-              </div>
-            </div>
+            <!----->
           </div>
         </div>
 
@@ -207,12 +348,20 @@
           <!-- contact section -->
           <h2 class="section-title">Liên hệ</h2>
           <div class="section-content">
-            <div class="order-list" id="SNS-list">
+            <div class="order-list SNS">
               <!-- list of SNS -->
+              <ol class="SNS">
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Linkedin</a></li>
+                <li><a href="#" target="_blank">Github</a></li>
+              </ol>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <!--chưa hiểu yêu cầu của phần này là gì, có phải là SNS list ở trên không-->
+    </footer>
   </body>
 </html>
